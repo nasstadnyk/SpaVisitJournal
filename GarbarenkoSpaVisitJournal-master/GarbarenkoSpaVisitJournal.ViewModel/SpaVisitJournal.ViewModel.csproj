@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GarbarenkoSpaVisitJournal.BL.Abstract\SpaVisitJournal.BL.Abstract.csproj" />
+    <ProjectReference Include="..\GarbarenkoSpaVisitJournal.BL.Implementation\SpaVisitJournal.BL.Implementation.csproj" />
+    <ProjectReference Include="..\GarbarenkoSpaVisitJournal.DAL.Abstract\SpaVisitJournal.DAL.Abstract.csproj" />
+    <ProjectReference Include="..\GarbarenkoSpaVisitJournal.DAL.Implementation\SpaVisitJournal.DAL.Implementation.csproj" />
+    <ProjectReference Include="..\GarbarenkoSpaVisitJournal.Models\SpaVisitJournal.Models.csproj" />
+  </ItemGroup>
+
+</Project>
